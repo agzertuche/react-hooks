@@ -2,7 +2,7 @@ import React from 'react'
 import {render, screen} from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import App from '../final/02'
-// import App from '../exercise/02'
+// import App from '../exercise/02' // Test not working for extra excersices
 
 afterEach(() => {
   window.localStorage.removeItem('name')
